@@ -17,6 +17,11 @@ root/main.js
     *
     *
     ipcMain.on('ChanelName', (e, arg) => {
+        .
+        .
+        .
+        ==================================
+
         you need to set some method to stream data to renderer
         may used pipe / setInterval / watch with tail
 
@@ -25,6 +30,8 @@ root/main.js
         e => event will automate create by this plugin when will was called
 
         arg => was predife as "ping"
+
+        ==================================
     });
 
 root/view/src/render.js
@@ -33,19 +40,22 @@ root/view/src/render.js
 
     console_log('ChanelName','app','console','line', 10 );
 
+    ======================================
+
     That's it, it was 2 lines of coding to let it work in render.js detail as below
 
-    ChanelName => need to be same that call from main.js
+    ChanelName (string) => need to be same that call from main.js
     
-    app => DOM id <div id="app"></div> this element need to be coding in your index.html
+    app (string) => DOM id <div id="app"></div> this element need to be coding in your index.html
     
-    console => vDOM className (this DOM will automate create) 
-        <div id="app">
-            <div class="console">
-            </div>
-        </div>
+    console (string ) => vDOM className (this DOM will automate create) 
     
-    line => vDOM className and this element will stroe message from Main process 
+    line ( string ) => vDOM className and this element will stroe message from Main process
+
+    10 => this is number of line that we would like to have in our console
+
+        Final result as below
+
         <div id="app">
             <div class="console">
                 <div class="line"></div>
@@ -56,7 +66,8 @@ root/view/src/render.js
                 // until number of line that we was defined in next arg
             </div>
         </div>
-    10 => this is number of line that we would like to have in our console
+
+    ==================================
 
 root/view/index.html
 
@@ -78,5 +89,7 @@ root/view/index.html
             <script src="view/src/render.js"></script>
         </body>
     </html>
-    // just two line of coding 
+    
+    ==============================
+    just two line of coding 
 
