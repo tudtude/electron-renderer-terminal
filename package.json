@@ -1,0 +1,21 @@
+{
+  "name": "electron-renderer-terminal",
+  "version": "1.0.3",
+  "description": "This is tools for send stream meessage from Electron main to renderer DOM view",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Electron",
+    "Inferno",
+    "terminal"
+  ],
+  "author": "Tudtude",
+  "license": "ISC",
+  "dependencies": {
+    "inferno": "^5.0.4",
+    "inferno-create-element": "^5.0.4"
+  },
+  "devDependencies": {}
+}
