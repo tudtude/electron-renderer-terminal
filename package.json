@@ -11,6 +11,10 @@
   ],
   "author": "Tudtude",
   "license": "MIT",
+  "repository" :  { 
+    "type" : "git",
+    "url" : "https://github.com/tudtude/electron-renderer-terminal.git"
+  },
   "dependencies": {
     "inferno": "^5.0.4",
     "inferno-create-element": "^5.0.4"
