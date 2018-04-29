@@ -3,19 +3,16 @@
   "version": "1.0.3",
   "description": "This is tools for send stream meessage from Electron main to renderer DOM view",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "git": "",
   "keywords": [
     "Electron",
     "Inferno",
     "terminal"
   ],
   "author": "Tudtude",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "inferno": "^5.0.4",
     "inferno-create-element": "^5.0.4"
-  },
-  "devDependencies": {}
+  }
 }
