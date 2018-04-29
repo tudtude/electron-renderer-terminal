@@ -1,6 +1,6 @@
 {
   "name": "electron-renderer-terminal",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "This is tools for send stream meessage from Electron main to renderer DOM view",
   "main": "index.js",
   "git": "",
@@ -11,9 +11,9 @@
   ],
   "author": "Tudtude",
   "license": "MIT",
-  "repository" :  { 
-    "type" : "git",
-    "url" : "https://github.com/tudtude/electron-renderer-terminal.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tudtude/electron-renderer-terminal.git"
   },
   "dependencies": {
     "inferno": "^5.0.4",
