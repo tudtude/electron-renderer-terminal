@@ -1,6 +1,6 @@
 {
   "name": "electron-renderer-terminal",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "This is tools for send stream meessage from Electron main to renderer DOM view",
   "main": "index.js",
   "git": "",
